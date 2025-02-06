@@ -57,8 +57,8 @@ $(document).ready(function() {
                 $("#id").val(data.id);
                 $("#fname").val(data.fName);
                 $("#lname").val(data.lName);
-                $("#email").val(data.email);
-                $("#phone").val(data.phone);
+                $("#ed-email").val(data.email);
+                $("#ed-phone").val(data.phone);
             }
         });
     });
@@ -90,7 +90,7 @@ $(document).ready(function() {
     });
 
     // Gestion de la suppression d'un utilisateur avec confirmation SweetAlert2
-    $("body").on("click", ".delateBtn", function(e) {
+    $("body").on("click", ".deleteBtn", function(e) {
         e.preventDefault();
         
         var del_id = $(this).attr('id'); // Récupère l'ID de l'utilisateur à supprimer

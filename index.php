@@ -117,11 +117,11 @@
                         </div>
                         <div class="form-group">
                             <label for="email">Email Address:</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
+                            <input type="email" class="form-control" id="ed-email" name="email" required>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone:</label>
-                            <input type="tel" class="form-control" id="phone" name="phone" required>
+                            <input type="tel" class="form-control" id="ed-phone" name="phone" required>
                         </div>
                         <button type="submit" name="update" id="update" class="btn btn-primary">Edit</button>
                     </form>

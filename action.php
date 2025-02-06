@@ -77,8 +77,8 @@ if(isset($_POST['action']) && $_POST['action'] == "update"){
 }
 
 
-if(isset($_POST['delete_id'])){
-    $id = $_POST['delete_id'];
+if(isset($_POST['del_id'])){
+    $id = $_POST['del_id'];
 
     $user->delete($id);
 }
