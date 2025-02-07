@@ -78,7 +78,7 @@ project-ajax/
 ## 🚀 Installation & Utilisation
 1. **Cloner le repo**
 ```sh
-git clone https://github.com/MouadHallaffou/liveCoding-ajax-mvc
+git clone https://github.com/MouadHallaffou/liveCoding-ajax-mvc.git
 ```
 2. **Configurer la base de données** (importer `db.sql`).
 3. **Démarrer le serveur local** et ouvrir `App/index.php`.
